@@ -8,7 +8,7 @@ python solver.py -d 9 -n 20 -t 8
 This command does:
 
 1) Create a random puzzle of 20 numbers filled in.
-2) Find a solution via brute-force search with 20 concurrent threads.
+2) Find a solution via brute-force search with 8 concurrent threads.
 
 The random puzzle created is valid. (E.g. it does not break sudoku rules), but it is possible for the puzzle to have no valid solutions.
 
